@@ -32,7 +32,7 @@ from google import genai
 from google.genai import types
 
 # ------------------------------------------------------------------ settings
-API_KEY       = os.environ.get("GEMINI_API_KEY", "PASTE_YOUR_KEY_HERE")
+API_KEY       = os.environ.get("GEMINI_API_KEY", "AIzaSyB4DIN8iNu0GKXFNAbREALd_CO0sReMNRI")
 MODEL         = "gemini-3.8-flash"        # stable Flash model
 MODEL_BACKUP  = "gemini-flash-latest"     # used automatically if MODEL is unavailable
 LANGUAGE      = os.environ.get("NAKHEEL_LANG", "en")   # "en" or "ar" for spoken results
